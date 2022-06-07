@@ -29,6 +29,12 @@ body {
     color: #f0d9fb;
 }
 
+.topnav a.link {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+
 .topnav a.home {
     /* background: -webkit-linear-gradient(90deg, #f541fe, #bd76fb);
     -webkit-background-clip: text;
@@ -42,8 +48,20 @@ body {
     color: #f0d9fb;
 }
 
-.topnav .home img {
+.topnav img {
     width: 20px;
     height: 20px;
     padding: 0px 4px 0px 0px;  
+}
+
+.topnav img.link {
+    padding: 5px;
+    padding-top: 17px;
+}
+
+.topnav img.link:hover {
+    margin: 15px 3px 3px 3px;
+    border: solid 2px #f6f6f63c;
+    border-radius: 20px;
+    padding: 0px 0px;
 }
