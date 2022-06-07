@@ -1,13 +1,14 @@
 /* Remove margin */
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 /* Add a purple background color to the top navigation */
 .topnav {
     background-image: linear-gradient(90deg, #A200E8, #c96ff0 , #fa64ff);
-    /* border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px; */
     overflow: hidden;
 }
   
