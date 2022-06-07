@@ -1,0 +1,49 @@
+/* Remove margin */
+body {
+    margin: 0;
+}
+
+/* Add a purple background color to the top navigation */
+.topnav {
+    background-image: linear-gradient(90deg, #A200E8, #c96ff0 , #fa64ff);
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
+    overflow: hidden;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #eabefd;
+    text-align: center;
+    padding: 11px 16px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #f0d9fb;
+}
+
+.topnav a.home {
+    /* background: -webkit-linear-gradient(90deg, #f541fe, #bd76fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #f7edfc;
+    padding: 14px 16px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: #f0d9fb;
+}
+
+.topnav .home img {
+    width: 20px;
+    height: 20px;
+    padding: 0px 4px 0px 0px;  
+}
