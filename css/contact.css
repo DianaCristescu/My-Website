@@ -30,11 +30,11 @@
     align-items: center; 
     justify-content: center;
     font-weight:700;
-    font-size:15px;
 }
 
 .red {
     background-color:#f98d77;
+    font-size:15px;
     margin-left:7px;
 }
 
@@ -44,6 +44,7 @@
 
 .yellow {
     background-color:#ecec8a;
+    font-size: 24px;
     font-weight:900;
 }
 
@@ -53,6 +54,7 @@
 
 .green {
     background-color:#90e690;
+    font-size: 20px;
 }
 
 .green:hover {
@@ -79,44 +81,4 @@
     50% {
         opacity: 0;
     }
-}
-
-.cloud {
-    background-color: #ffffff00;
-    z-index: -1;
-    position: absolute;
-    height: 65px;
-    width: 115px;
-}
-
-.cloud-bottom {
-    background-color: #ecdaf6ed;
-    position: absolute;
-    height: 40px;
-    width: 115px;
-    border-radius: 20px;
-}
-
-.cloud-top1 {
-    background-color: #ecdaf6ed;
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    border-radius: 40px;
-}
-
-.cloud-top2 {
-    background-color: #ecdaf6ed;
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    border-radius: 40px;
-}
-
-.cloud-top3 {
-    background-color: #ecdaf6ed;
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    border-radius: 40px;
 }

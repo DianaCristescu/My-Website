@@ -1,21 +1,24 @@
 /* Remove margin */
 body {
-    margin: 0;
+    margin: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 12px;
+    color: #605e5e;
 }
 
 /* Add a purple background color to the top navigation */
 .topnav {
-    background-image: linear-gradient(90deg, #A200E8, #c96ff0 , #fa64ff);
     overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 10px 2px #e6e1e6;
 }
   
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #eabefd;
+    color: #000000;
     text-align: center;
     padding: 11px 16px;
     padding-top: 17px;
@@ -27,7 +30,7 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    color: #f0d9fb;
+    color: #595759;
 }
 
 .topnav a.link {
@@ -40,13 +43,13 @@ body {
     /* background: -webkit-linear-gradient(90deg, #f541fe, #bd76fb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-    color: #f7edfc;
+    color: #000000;
     padding: 14px 16px;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    color: #f0d9fb;
+    color: #595759;
 }
 
 .topnav img {
@@ -62,7 +65,29 @@ body {
 
 .topnav img.link:hover {
     margin: 15px 3px 3px 3px;
-    border: solid 2px #f6f6f63c;
+    border: solid 2px #59575920;
     border-radius: 20px;
     padding: 0px 0px;
+}
+
+.title {
+    margin: auto;
+    padding-top: 50px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    font-size: 32px;
+}
+
+.content {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border-width: 2px;
+    width: 800px;
+    height: 900px;
+    box-shadow: 0px 0px 10px 2px #e6e1e6;
+    position: relative;
 }
