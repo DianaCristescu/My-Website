@@ -4,11 +4,18 @@
         <title>Projects</title>
         <link rel="icon" type="image/x-icon" href="../images/icons8-console-v1-96.png">
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/projects.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <script type="text/javascript" src="../javascript/projects.js"></script>
     </head>
-    <body class="body">
+    <body>
+
+        <!-- Background -->
+
+        <div class="background"><img src="../images/clouds-background.jpg"></div>
 
         <!-- Content -->
 
@@ -22,11 +29,52 @@
                 <a class="link" href="https://github.com/DianaCristescu"><img class="link" src="../images/icons8-github-v1-60.png" alt="github" ></a>
             </div>
 
-            <div class="title">Projects</div>
+            <article class="project" style="display:block">
+                <h1>Simulation of a Basic Router</h1>
+                <section class="text">Simulated the basic functionality of a router by implementing the ICMP and ARP protocols from scratch.</section>
+                <section class="text">Developed in C using a variety of Ethernet, ICMP and ARP libraries for storing the various data headers.</section>
+            </article>
+
+            <article class="project">
+                <h1>Web Client Rest API</h1>
+            </article>
+
+            <article class="project">
+                <h1>Santa Claus Children Gifts Assigner</h1>
+            </article>
+
+            <article class="project">
+                <h1>VideosDB</h1>
+            </article>
+
+            <article class="project">
+                <h1>Graph ZOO</h1>
+            </article>
+
+            <article class="project">
+                <h1>Bidirectional People Sensor</h1>
+            </article>
+
+            <article class="project">
+                <h1>This Website</h1>
+            </article>
+
+            <a class="prev" onclick="plusProject(-1)">&#10094;</a>
+            <a class="next" onclick="plusProject(1)">&#10095;</a>
+
+            <div style="text-align:center">
+                <div class="dot dot-active" onclick="currentProject(1)"></div>
+                <div class="dot" onclick="currentProject(2)"></div>
+                <div class="dot" onclick="currentProject(3)"></div>
+                <div class="dot" onclick="currentProject(4)"></div>
+                <div class="dot" onclick="currentProject(5)"></div>
+                <div class="dot" onclick="currentProject(6)"></div>
+                <div class="dot" onclick="currentProject(7)"></div>
+            </div>
         </div>
 
         <!-- Refrence Links -->
 
-        <div style="float:right;padding:10px;">Icons by <a target="_blank" href="https://icons8.com">Icons8</a></div>
+        <footer style="float:right;padding:10px;">Icons by <a target="_blank" href="https://icons8.com">Icons8</a></footer>
     </body>
 </html>
